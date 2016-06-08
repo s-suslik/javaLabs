@@ -1,0 +1,47 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face{
+	font-family: Advertising_Gothic_Demo;
+	src: url("data/123.ttf");
+	
+}
+
+.root {
+ 	-fx-background-image: url("data/digger.png");
+ }
+ 
+.button { 
+	-fx-background-color: rgba(0,0,0,0.0);
+	-fx-font-size: 34pt; 
+	-fx-font-family: "Advertising Gothic Demo";
+	-fx-text-fill: linear-gradient(#ffa500,#ffd700); 
+}
+
+#file { 
+	-fx-background-color: rgba(0,0,0,0.0);
+	-fx-font-size: 18pt; 
+	-fx-font-family: "Times New Roman";
+	-fx-text-fill: linear-gradient(#ffa500,#ffd700); 
+}
+
+#scoreString { 
+	-fx-background-color: rgba(0,0,0,0.0);
+	-fx-font-size: 30pt; 
+	-fx-font-family: "Advertising Gothic Demo";
+	-fx-text-fill: linear-gradient(#ffa500,#ffd700); 
+}
+
+#scoreNumber { 
+	-fx-background-color: rgba(0,0,0,0.0);
+	-fx-font-size: 30pt; 
+	-fx-font-family: "Times New Roman";
+	-fx-text-fill: linear-gradient(#ffa500,#ffd700); 
+}
+
+#file:hover{
+	-fx-text-fill: #000000;
+}
+
+
+.button:hover{
+	-fx-text-fill: #000000;
+}
